@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Sen:700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="../icon.png">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/bbe548252d.js" crossorigin="anonymous"></script>
+    <title>Yalla A7gz</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="brand" href="../index.html"><i class="far fa-futbol fa-2x"> <span>Yalla A7gz</span></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-user-plus"></i> Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signin.html"><i class="fas fa-unlock-alt"></i> Sign in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-globe"></i> English</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link fas fa-caret-square-down menu" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">About</a>
+                <a class="dropdown-item" href="#">Stadium Locations</a>
+                <a class="dropdown-item" href="#">Contact US</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!--End of Navbar-->
+    
+    <!--Register-->
+      <div class="form container text-center w-50 p-10 xshadow mb-5 bg rounded">
+        <form action="signin.html" method="POST">
+          <label></label><br>
+          <input type="text" name="fname" placeholder="First name" required /><br>
+
+          <label></label><br>
+          <input type="text" name="lname" placeholder="Last name" required /><br>
+
+          <label></label><br>
+          <input type="number" name="ssn"  placeholder="National ID" required/><br>
+
+          <label></label><br>
+          <input type="email" name="email" placeholder="Email" required /><br><br>
+
+          <input type="tel" name="phone" placeholder="Phone number" pattern="[0-9]{11}" required /><br>
+          
+          <button class="btn btn-success"> Register </button>
+        </form>
+
+
+        <!--Copyright-->
+        <div class="copyR">
+          <p> &copy; 2020 Yalla A7gz. All rights reserved.  Developed By Hassan&Mostafa Team</p>
+        </div>
+      <!--End of Register-->
+    </div>
+    <!--End of Content-->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
