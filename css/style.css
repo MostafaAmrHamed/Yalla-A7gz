@@ -139,3 +139,23 @@ input::-webkit-inner-spin-button {
 }
 /*End of Register*/
 
+/* Match List*/
+
+.matchList{
+    margin-top: 150px;
+}
+
+.matchList .carousel-inner .carousel-item{
+    margin-left: 30px;
+    color: black;
+    font-family: 'Sen', sans-serif;
+}
+.matchList .carousel-inner .carousel-item span{
+    font-size: 24px;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    height: 200px;
+    width: 42px;
+}
+/*End of match list*/
